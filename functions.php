@@ -86,7 +86,6 @@ function mobilenews_scripts() {
 	wp_enqueue_style( 'mobilenews-style', get_stylesheet_uri() );
 	
 	/* Add Custom CSS */
-	// wp_enqueue_style( 'zengymobile1-content-sidebar-style', get_stylesheet_directory_uri() . '/layouts/content-sidebar.css' );
 	wp_enqueue_style( 'mobilenews-custom-style', get_stylesheet_directory_uri() . '/custom.css' );
 	
 	wp_enqueue_script( 'mobilenews-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
